@@ -1,10 +1,8 @@
-h1 {
-    font-family: 'Audiowide', cursive;
-}
-
-p {
+h1{
 
     font-family: 'Audiowide', cursive;
+    color: rgba(255, 255, 255, 0.952);
+    font-size: 25;
 }
 
 .headshot {
@@ -16,3 +14,50 @@ footer {
     display: flex;
 flex-direction: row;
 }
+
+
+
+body {
+    background-image: radial-gradient( rgba(0, 0, 0, 0.822), black);
+}
+
+  .logo { 
+height: 19%;
+width: 10%;
+  margin-left: 37%;
+  }
+
+  .banner {
+      width: 100%;
+      margin-top: 8.6%;
+  }
+
+  .sarah {
+      width: 20%;
+      height: 20%;
+  }
+
+  .evan {
+    width: 20%;
+    height: 20%;
+}
+
+  .jason {
+    width: 20%;
+    height: 20%;
+}
+
+  .spencer {
+    width: 20%;
+    height: 20%;
+}
+
+  .linkedInImage {
+      width: 10%;
+      height: 10%;
+
+  }
+  .githubImage{
+      width: 10%;
+      height: 10%;
+  }
