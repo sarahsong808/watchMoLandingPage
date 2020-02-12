@@ -5,7 +5,7 @@ function App(props) {
 
     return (
         <section className="outerContainer">
-            <div className="star"><a className="github-button" href="https://github.com/oslabs-beta/watchmo" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star oslabs-beta/watchmo on GitHub">Star</a></div>
+<a class="github-button" href="https://github.com/oslabs-beta/watchmo" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star oslabs-beta/watchmo on GitHub">Star</a>
 
             <div>
                 <img className="banner" src="/cat.png" />
@@ -31,12 +31,13 @@ function App(props) {
                     <label>Jason Jones</label>
                     <label>Sarah Song</label>
                     <label>Spencer Wyman</label></div>
+                    <br/>
                 <div className="socialBar">
                     <div className="social">
                         <a href="https://www.linkedin.com/in/evan-hilton-694976b0/">
                             <img
                                 className="linkedInImage"
-                                src="https://i.ya-webdesign.com/images/white-linkedin-icon-png-4.png"
+                                src="/linkedinimage.png"
                             /> </a> 
                         <a href="https://github.com/EH1537">
                             <img
@@ -62,7 +63,7 @@ function App(props) {
                         <a href="https://www.linkedin.com/in/sarah-song-65702b89/">
                             <img
                                 className="linkedInImage"
-                                src="https://i.ya-webdesign.com/images/white-linkedin-icon-png-4.png"
+                                src="/linkedinimage.png"
                             /> </a>
                         <a href="https://github.com/zavagezong">
                             <img
@@ -75,7 +76,7 @@ function App(props) {
                         <a href="https://www.linkedin.com/in/spencerwyman/">
                             <img
                                 className="linkedInImage"
-                                src="https://i.ya-webdesign.com/images/white-linkedin-icon-png-4.png"
+                                src="/linkedinimage.png"
                             /> </a>
                         <a href="https://github.com/spencerWyman">
                             <img
@@ -86,7 +87,7 @@ function App(props) {
                         </div>
                 </div>
             </div>
-
+            <br/>
         </section>
 
     )
