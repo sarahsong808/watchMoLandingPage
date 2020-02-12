@@ -1,6 +1,18 @@
 h1 {
-    color: white;
     font-family: 'Audiowide', cursive;
-
 }
 
+p {
+
+    font-family: 'Audiowide', cursive;
+}
+
+.headshot {
+    width: 25%;
+    height: auto;
+}
+
+footer {
+    display: flex;
+flex-direction: row;
+}

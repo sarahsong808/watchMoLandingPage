@@ -9,6 +9,8 @@ const PORT = 3000;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+app.use(express.static(path.join(__dirname, '../client/assets')));
+
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../client/index.html'));
@@ -17,6 +19,7 @@ app.get('/', (req, res) => {
 app.use('*', (req, res) => {
     res.sendStatus(404);
 });
+
 
 // global error handler
 function errorHandler(err, req, res, next) {
