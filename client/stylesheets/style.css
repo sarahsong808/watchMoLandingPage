@@ -1,21 +1,51 @@
-h1{
+h1, h2{
 
     font-family: 'Audiowide', cursive;
     color: rgba(255, 255, 255, 0.952);
     font-size: 25;
+    text-align: center;
 }
+
+.names {
+    font-family: 'Audiowide', cursive;
+    color: rgba(255, 255, 255, 0.952);
+    font-size: 15;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headshots {
+  display: flex;
+  justify-content: space-around;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+.evanHover:hover .overlay {
+height: 100%;
+}
+
 
 .headshot {
-    width: 25%;
-    height: auto;
+    flex-basis: 20%;
+    box-shadow: 10px 10px 5px grey;
+    width: 10%;
 }
 
-footer {
+/* .links {
     display: flex;
-flex-direction: row;
-}
-
-
+    flex-direction: row;
+    justify-content: space-around;
+} */
 
 body {
     background-image: radial-gradient( rgba(0, 0, 0, 0.822), black);
@@ -32,32 +62,40 @@ width: 10%;
       margin-top: 8.6%;
   }
 
-  .sarah {
-      width: 20%;
-      height: 20%;
-  }
-
-  .evan {
-    width: 20%;
-    height: 20%;
-}
-
-  .jason {
-    width: 20%;
-    height: 20%;
-}
-
-  .spencer {
-    width: 20%;
-    height: 20%;
-}
-
   .linkedInImage {
-      width: 10%;
-      height: 10%;
-
+    width: 4%;
+    height: 10%;
   }
-  .githubImage{
-      width: 10%;
+  label {
+      flex-basis: 20%;
+      text-align: center;
+  }
+
+  .star {
+      display: flex;
+      justify-content: flex-end;
       height: 10%;
+ 
+  }
+
+  .githubImage {
+      width: 100%;
+      height: 100%;
+  }
+
+  .socialBar {
+      height: 80px;
+display: flex;
+justify-content: space-around;
+  }
+
+  .social {
+      height: 100%;
+      display: flex;
+      flex-basis: 20%;
+  }
+
+  footer{
+display: flex;
+justify-content: center;
   }
