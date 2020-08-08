@@ -280,7 +280,6 @@ a:hover {
 
 .icon-drop:before, 
 .icon-arrow-left:before {
-	font-family: 'fontawesome';
 	position: absolute;
 	top: 0;
 	width: 100%;
