@@ -24,12 +24,15 @@
   max-width: 100%;
   height: auto;
   position: absolute;
-  top: 10%;
-  right: 12%;
+  top: 20%;
+  right: 65%;
   display: flex;
   flex-direction: column; 
   justify-content: flex-end;
   align-items: center;
+  background-color: rgba(14, 14, 14, 0.541);
+  box-shadow: 5px 10px #01010151;
+
 }
 #img > div
 {
@@ -60,7 +63,8 @@ canvas {
 html,body{ 
 	width:100%;
 	height:100%;
-	background:#111;
+  background:#111;
+  
 }
 
 html{
@@ -69,6 +73,8 @@ html{
 
 body{
   font:normal 75% Arial, Helvetica, sans-serif;
+  background-attachment: fixed;
+
 }
 
 canvas{
@@ -85,10 +91,11 @@ canvas{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+  background-attachment: fixed;
 }
 
-h1 {
-  font-family: 'Audiowide', cursive;
+#fbsection4 {
+	background-image: url(./assets/4.jpg);
 }
 
 p {
@@ -187,9 +194,7 @@ html, body,
 	background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%); 
 }
 
-#fbsection4 {
-	background-image: url(./assets/4.jpg);
-}
+
 
 #fbsection5 {
 	background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%); 
@@ -280,6 +285,7 @@ a:hover {
 
 .icon-drop:before, 
 .icon-arrow-left:before {
+	font-family: 'fontawesome';
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -299,7 +305,7 @@ a:hover {
 	color: #fff;
 }
 
-.icon-drop:before {
+.fab-fa-npm:before {
 	content: "\e000";
 }
 
@@ -307,3 +313,31 @@ a:hover {
 	content: "\f060";
 }
 
+.fab-fa-npm:before {
+    font-family: 'fontawesome';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 2;
+    text-align: center;
+    color: #47a3da;
+    -webkit-font-smoothing: antialiased;
+    text-indent: 8000px;
+    padding-left: 8px;
+  }
+
+  h2 {
+text-align: center;  }
+
+#summary{
+  display: block;
+  float: right;
+  width: 40%;
+  height: 20%; 
+  margin-top:20%;
+  margin-right: 15%;
+}
