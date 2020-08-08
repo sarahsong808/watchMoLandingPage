@@ -23,10 +23,10 @@
 #img{
   max-width: 100%;
   height: auto;
-  top: 35%;
-  right: 25%;
   z-index: 3;
-  
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -5%);
 }
 #img > div
 {
@@ -37,6 +37,12 @@
 #nav #logo{
   width: 30%;
   height: 100%;
+}
+
+.widget widget-lg {
+  top: 80%;
+  left: 50%;
+  transform: translate(-80%, -90%);
 }
 
 /* ---- reset ---- */
@@ -52,30 +58,6 @@ canvas {
 
 #fbsection4 {
 	background-image: url(./assets/4.jpg);
-}
-.npm {
-  display: block;
-  max-width: 300px;
-  margin: auto;
-  padding: 20px 30px;
-  font-size: 28px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: #fff;
-  background-color: #E48420;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-  font-family: 'Lato', Calibri, Arial, sans-serif;
-}
-
-.npm:hover {background-color: #0C3B65}
-
-.npm:active {
-background-color: rgb(2, 29, 53);
-box-shadow: 0 5px #666;
-transform: translateY(4px);
 }
 
 /* Set all parents to full height */
@@ -140,17 +122,25 @@ position: relative;
 p {
   text-align:center;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 h1 {
   text-align:center;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: bold;
+}
+
+.npm {
+    text-align:center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #fbsection2 {
@@ -208,13 +198,6 @@ a:hover {
 	font-weight: 400;
 }
 
-.container > header span {
-	display: block;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 0.5em;
-	padding: 0 0 0.6em 0.1em;
-}
 
 .container > header nav {
 	float: right;
@@ -254,56 +237,9 @@ a:hover {
 	background: #47a3da;
 }
 
-.icon-drop:before, 
-.icon-arrow-left:before {
-	font-family: 'fontawesome';
-	position: absolute;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	line-height: 2;
-	text-align: center;
-	color: #47a3da;
-	-webkit-font-smoothing: antialiased;
-	text-indent: 8000px;
-	padding-left: 8px;
-}
-
 .container > header nav a:hover:before {
 	color: #fff;
 }
-
-.fab-fa-npm:before {
-	content: "\e000";
-}
-
-.icon-arrow-left:before {
-	content: "\f060";
-}
-
-.fab-fa-npm:before {
-    font-family: 'fontawesome';
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 2;
-    text-align: center;
-    color: #47a3da;
-    -webkit-font-smoothing: antialiased;
-    text-indent: 8000px;
-    padding-left: 8px;
-  }
-
-  h2 {
-text-align: center; 
-color:  #E48420; }
 
 
 /* ============================================================================================== 
