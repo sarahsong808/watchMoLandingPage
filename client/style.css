@@ -28,9 +28,15 @@
   right: 12%;
   display: flex;
   flex-direction: column; 
-align-items: center;
+  justify-content: flex-end;
+  align-items: center;
 }
-
+#img > div
+{
+  flex: 1 1 auto;
+  text-align: center;
+  margin: 20px;  /* and that, will result in a 10px gap */
+}
 #nav #logo{
   width: 30%;
   height: 100%;
@@ -46,7 +52,6 @@ body {
 
 canvas {
   display: block;
-  vertical-align: bottom;
 }
 
 /* ---- particles.js container ---- */
@@ -80,4 +85,39 @@ canvas{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+}
+
+h1 {
+  font-family: 'Audiowide', cursive;
+}
+
+p {
+
+  font-family: 'Audiowide', cursive;
+}
+
+.npm {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  padding: 20px 30px;
+  font-size: 28px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #E48420;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.npm:hover {background-color: #0C3B65}
+
+.npm:active {
+background-color: rgb(2, 29, 53);
+box-shadow: 0 5px #666;
+transform: translateY(4px);
 }
