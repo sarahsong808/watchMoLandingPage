@@ -189,7 +189,7 @@ h1 {
 #fbsection2 {
   background-image: url("./assets/demo.gif"), linear-gradient(315deg, #B82E1F 0%, #000000 74%);
   background-size: 500px, 100%;
-  background-position: center center;
+  background-position: 10% 70%;
   background-repeat: no-repeat;
 
 }
@@ -197,14 +197,14 @@ h1 {
   #fbsection3 {
     background-image: url("./assets/dashboard.gif"), linear-gradient(315deg, #756213 0%, #000000 74%);
     background-size: 500px, 100%;
-    background-position: center center;
+    background-position: 10% 70%;
     background-repeat: no-repeat;
   }
   
   #fbsection4 {
     background-image: url("./assets/config.gif"), linear-gradient(315deg, #166D3B 0%, #000000 74%);
     background-size: 500px, 100%;
-    background-position: center center;
+    background-position: 10% 70%;
     background-repeat: no-repeat;
   }
   
@@ -212,7 +212,7 @@ h1 {
   #fbsection5 {
     background-image: url("https://www.youtube.com/watch?v=6b9XJNaxdt8"), linear-gradient(315deg, #B82E1F 0%, #000000 74%);
     background-size: 500px, 100%;
-    background-position: center center;
+    background-position: 10% 70%;
     background-repeat: no-repeat;
   }
 
