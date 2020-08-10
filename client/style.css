@@ -113,10 +113,17 @@ html, body,
   flex-direction: column;
 }
 
-p {
+#description-summary {
   text-align:center;
   position: absolute;
   top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+p {
+  text-align:center;
+  position: absolute;
+  top: 83%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -404,4 +411,68 @@ animation:move-clouds-back 200s linear infinite;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+h3 { 
+text-align: center;
+position: absolute;
+top: 20%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.devTeam {
+  z-index: 3;
+}
+
+.headshots {
+  display: flex;
+  justify-content: space-around;
+ 
+  overflow: hidden;
+}
+.githubImage:hover {
+  background: linear-gradient(black, grey);
+}
+
+.headshot {
+    flex-basis: 15%;
+    box-shadow: 10px 10px 5px grey;
+    height: 20em;
+    overflow: hidden;
+    width:100%;
+    height: auto;
+}
+.githubImage {
+  height: 50%;
+  margin-left: 13px;
+
+}
+
+.socialBar {
+  height: 80px;
+display: flex;
+justify-content: space-around;
+}
+
+.social {
+  height: 80%;
+  display: flex;
+  flex-basis: 20%;
+  justify-content: center;
+}
+
+.githubImage:hover {
+background: linear-gradient(black, grey);
+}
+.linkedInImage:hover {
+background: linear-gradient(black, grey);
+}
+.linkedInImage {
+  height: 45%;
+}
+
+label {
+  flex-basis: 20%;
+  text-align: center;
 }
