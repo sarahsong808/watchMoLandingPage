@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  scroll-snap-type: y mandatory;
+
 }
 
 #left{
@@ -111,7 +113,9 @@ html, body,
   position: relative;
   display: flex;
   flex-direction: column;
+  
 }
+
 
 #description-summary {
   text-align:center;
@@ -187,6 +191,7 @@ h1 {
   background-size: 500px, 100%;
   background-position: center center;
   background-repeat: no-repeat;
+
 }
   
   #fbsection3 {
@@ -205,7 +210,7 @@ h1 {
   
   
   #fbsection5 {
-    background-image: url("./assets/demo.gif"), linear-gradient(315deg, #B82E1F 0%, #000000 74%);
+    background-image: url("https://www.youtube.com/watch?v=6b9XJNaxdt8"), linear-gradient(315deg, #B82E1F 0%, #000000 74%);
     background-size: 500px, 100%;
     background-position: center center;
     background-repeat: no-repeat;
