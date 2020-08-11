@@ -4,7 +4,7 @@
   z-index: 3;
   top: 50%;
   left: 0%;
-  transform: translate(-30%, -60%);
+  transform: translate(-30%, -70%);
 }
 #img > div
 {
@@ -415,28 +415,24 @@ transform: translate(-50%, -50%);
 
 
 .githubImage {
-  height: 50%;
+  height: 45%;
   margin-left: 13px;
 
 }
 
 .socialBar {
   position: absolute;
-  top: 90%;
-  left: 50%;
+  top: 86%;
+  left: 54%;
   transform: translate(-50%, -50%);
   height: 80px;
-  
-display: flex;
-justify-content: space-around;
+  display: flex;
 }
 
 .social {
   height: 80%;
-  width: 180px;
-  display: flex;
-  flex-basis: auto%;
-  justify-content: center;
+  width: 200px;
+  margin-left: 25px;
 }
 
 .githubImage:hover {
@@ -446,7 +442,7 @@ background: linear-gradient(black, rgb(60, 0, 0));
 background: linear-gradient(black, rgb(58, 0, 0));
 }
 .linkedInImage {
-  height: 45%;
+  height: 40%;
 }
 .devTeam {
   margin-top: 15%;
@@ -454,13 +450,8 @@ background: linear-gradient(black, rgb(58, 0, 0));
 }
 
 label {
-  
   flex-basis: 70%;
   text-align: center;
-  /* position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
 }
 
 .names {
