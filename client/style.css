@@ -4,7 +4,7 @@
   z-index: 3;
   top: 50%;
   left: 0%;
-  transform: translate(-30%, -70%);
+  transform: translate(-30%, -80%);
 }
 #img > div
 {
@@ -161,23 +161,23 @@ h3 {
 
 #fbsection2 {
   background-image: url("./assets/demo.gif"), linear-gradient(315deg, #B82E1F 0%, #000000 74%);
-  background-size: 40%, 100%;
-  background-position: 10% 70%;
+  background-size: 39%, 100%;
+  background-position: 10% 55%;
   background-repeat: no-repeat;
 
 }
   
   #fbsection3 {
     background-image: url("./assets/dashboard.gif"), linear-gradient(315deg, #756213 0%, #000000 74%);
-    background-size: 500px, 100%;
-    background-position: 10% 70%;
+    background-size: 39%, 100%;
+    background-position: 10% 55%;
     background-repeat: no-repeat;
   }
   
   #fbsection4 {
     background-image: url("./assets/config.gif"), linear-gradient(315deg, #166D3B 0%, #000000 74%);
-    background-size: 500px, 100%;
-    background-position: 10% 70%;
+    background-size: 39%, 100%;
+    background-position: 10% 55%;
     background-repeat: no-repeat;
   }
   
